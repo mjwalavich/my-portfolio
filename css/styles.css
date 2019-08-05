@@ -1,0 +1,295 @@
+.hero-unit {
+  background: url("../img/hero-unit-background-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.hero-unit-subheading {
+  color: #fc924b;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2.4px;
+  margin-bottom: 45px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border: 0;
+  padding: 15px 23px;
+}
+
+.btn-primary {
+  background: linear-gradient(105.63deg, #fc924b -21.04%, #303b48 147.44%);
+}
+
+.dark-content {
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #fff;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 74px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+}
+
+p {
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.dark-text {
+  color: #0b121a;
+}
+
+.content-section {
+  padding: 80px 0;
+}
+
+.content-section-centered {
+  text-align: center;
+}
+
+section.skills-section {
+  background: #fc924b;
+  color: #fff;
+}
+
+.portfolio-cards {
+  margin-top: 60px;
+}
+
+.portfolio-card {
+  background: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.portfolio-card-image {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.portfolio-card-information {
+  padding: 25px 5px;
+}
+
+.portfolio-card-title {
+  display: block;
+  font-size: 20px;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+}
+
+.portfolio-card-credits {
+  display: block;
+  color: #a7a7a7;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.dark-content {
+  background: #303b48;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.content-section-side-image {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.content-section-side-image-content {
+  flex-grow: 1;
+  padding: 50px 0;
+}
+
+.content-section-side-image-container {
+  width: 250px;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  color: #9acff6;
+  text-decoration: underline;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #fff;
+}
+
+/****** CONTACT FORM ******/
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form-input {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  padding: 18px 22px;
+  font-size: 18px;
+}
+
+.contact-form-input::placeholder {
+  color: #9e9e9e;
+}
+
+textarea.contact-form-input {
+  min-height: 160px;
+}
+
+.contact-form-checkbox-input {
+  display: none;
+}
+
+.contact-form-checkbox-input:checked + .contact-form-checkbox-label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.contact-form-checkbox-label {
+  position: relative;
+  color: #ababab;
+  text-align: left;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.contact-form-checkbox-label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form-checkbox-label:after {
+  position: absolute;
+  left: 11px;
+  top: 9px;
+  font-family: "Font Awesome 5 free";
+  content: "\f00c";
+  color: #fc924b;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+/****** FOOTER ******/
+
+.footer {
+  background: #eef1f2;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/****** MEDIA QUERIES *********/
+@media only screen and (max-width: 768px) {
+  ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .skills-heading,
+  .list-heading {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-unit {
+    text-align: center;
+    background: url("../img/hero-unit-background-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-unit-heading {
+    font-size: 40px;
+  }
+
+  .hero-unit-subheading {
+    font-size: 14px;
+  }
+
+  .content-section-side-image {
+    flex-direction: column;
+  }
+
+  .content-section-side-image-container {
+    min-height: 80px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content-section-side-image-heading {
+    text-align: center;
+  }
+}
