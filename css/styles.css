@@ -292,4 +292,8 @@ textarea.contact-form-input {
   .content-section-side-image-heading {
     text-align: center;
   }
+
+  #portfolio-padding {
+    padding-bottom: 50px;
+  }
 }
