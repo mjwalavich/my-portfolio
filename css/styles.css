@@ -1,5 +1,5 @@
 .hero-unit {
-  background: url("../img/hero-unit-background-desktop.jpg");
+  background: url("../img/desktop.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -162,7 +162,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #fff;
+  color: #fc924b;
 }
 
 /****** CONTACT FORM ******/
@@ -265,7 +265,7 @@ textarea.contact-form-input {
 @media only screen and (max-width: 576px) {
   .hero-unit {
     text-align: center;
-    background: url("../img/hero-unit-background-mobile.jpg");
+    background: url("../img/mobile.jpg");
     background-size: cover;
     background-position: center;
   }
